@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#topo-login-lincoln{
+    width: 100%;
+    height: 10%;
+    background: #fff;
+    box-shadow: 0px 2px 5px #ccc;
+    display: flex;
+    justify-content: center;      
+}
+
+.menu-login-lincoln{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-login-lincoln{
+    width: 13vw;
+}
+
+#h1-login-lincoln{
+    display: none;
+}
+
+#ul-login-lincoln{
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+#h1-login-lincoln{
+    font-size: 1em;
+    text-decoration: none;
+    padding: 1.70em 2em;
+    color:  #000000;
+}
+
+.as-login-lincoln{
+    font-size: 1em;
+    text-decoration: none;
+    padding: 1.70em 2em;
+    color:  #000000;
+}
+
+            /*  conteudo */
+
+.main-login-lincoln{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.conteiner-login-lincoln{
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+
+.categorias-login-lincoln{
+    width: 100%;
+    height: 100vh;
+}
+
+.cadastro_categorias_login-lincoln{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-lincoln{
+    width: 100%;
+    height: 60%;
+    /* background: red; */
+    box-shadow: 0em 0em 0.625em #ccc;
+    margin: 0em 0.5em; 
+}
+
+.cadastro_categorias_login-lincoln{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 7em;
+}
+
+#h2-login-lincoln{
+    font-weight: 400;
+    color:black;
+    text-transform: uppercase;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+.formulario-login-lincoln{
+    width: 80%;
+    height: 100%;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cadastro_categorias_login-lincoln input{
+    width: 100%;
+    height: 2.5em;
+    margin-bottom: 1em;
+    margin-top: 2em;  
+    padding: 0.5em;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    /* background: rebeccapurple; */
+}
+
+.cadastro_categorias_login-lincoln input[type="checkbox"]{
+    width: 20px;
+    margin-top: 12px;
+}
+
+.icones-login-lincoln{
+    display: flex;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+    justify-content: flex-start;
+    font-size: 15px;
+}
+
+.botao-login-lincoln{
+    display: flex;
+    justify-content: center;
+}
+
+.entrar-login-lincoln{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+
+/*FOOTER*/
+
+footer{
+    padding-left: 50px;
+    color: #fff;
+    font-size: 1em;
+    margin-top: 25px;
+    background-color: #797979;
+}
+
+footer ol a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#olis-footer-lincoln{
+     display: flex;  
+     justify-content: center;
+     list-style: none;
+    padding: 20px;
+    letter-spacing: -.01em;
+}
+
+.icones_footer_home-lincoln{
+    font-size: 1.5em;
+    color:  #fff;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;  
+}
+
+.icones_footer_home, i{
+    margin-left: 0.3em;
+    color: #fff;
+}
+
+
+    /*   RESPONSIVIDADE */
+
+    @media screen and (max-width: 768px){
+
+        #topo-login-lincoln{
+            width: 768px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .menu-login-lincoln{
+            width: 700px;
+            height: 180px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+    }
+    
+    @media screen and (max-width: 376px){
+
+    #topo-login-lincoln{
+        width: 135vw;
+       
+    }
+
+    .menu-login-lincoln{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .logo-login-lincoln{
+        width: 40vw;
+    }
+
+    #ul-login-lincoln{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 150px;
+        height: 150px;
+    }
+
+    .cadastro_categorias_login-lincoln{
+        padding-bottom: 7em;
+        width: 129vw;
+    }
+
+      /* Começo do footer; */
+
+      footer{
+          padding: 0px;
+        width:135vw;
+        background-color: #797979;
+    }
+    
+    footer > div > ol{
+        display: flex;
+        list-style: none;
+    }
+    
+    footer > div > ol > li{
+      
+       color: #fff;
+       font-size: 1em;
+       margin-top: 25px;
+    }
+    
+    footer ol a{
+        text-decoration: none;
+        color: #fff;
+    }
+     
+      footer > div{
+          padding: 20px;
+          display: flex;
+          justify-content: space-around;
+    }
+    
+    .icones_footer_home-lincoln{
+        font-size: 1.5em;
+        color:  #fff;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .icones_footer_home, i{
+        margin-left: 0.4em;
+        color: #fff;
+    }
+}
+    
+}

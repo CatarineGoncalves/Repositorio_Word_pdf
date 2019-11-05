@@ -1,0 +1,105 @@
+/*inicio do responsivo*/
+
+@media screen and (max-width: 768px){
+    .ul-cadastro{
+        padding: 1.75em 1.75em;
+    }
+    .boxx{
+        width: 66vw;
+        margin: 0em 13.5em;
+    }
+    
+    .a-cadastro{
+        padding: 1.75em 1.75em;
+    }
+    
+    .cadastro_categorias{
+        width: 50%;
+    }
+    
+    .container-cadastro{
+        flex-wrap: wrap;
+    }
+    
+}
+   
+
+/*inicio do responsivo*/
+
+@media screen and (max-width: 376px) {
+        
+    #topo-cadastro {
+         height: 42vh;
+    }
+
+    .logo-cadastro{
+        width: 40vw;
+    }
+
+    
+    #ul-cadastro{
+         display: block;
+         height: 14vh;
+    }
+    
+    #ul-cadastro{
+        padding: 0.1em 1.75em;
+    }
+
+    .a-cadastro{
+        padding: 0.1em 0.75em;
+    }
+    
+    #categorias-cadastro{
+        flex-wrap: wrap;
+    }
+        
+    .containerr-cadastro{
+        height: 140vh;
+    }
+    
+    .boxx{
+        flex-grow: 2;
+        width: 80%;
+        margin-top: 1em;
+        margin: auto;
+    }
+   
+    #topo-cadastro{
+        padding-bottom: 10mm; 
+        width: 100vw;
+        height: 40vh;
+    }
+    
+    
+    .logo-cadastro{
+        width: 35vw;
+        
+    }
+    
+    #ul-cadastro{
+        list-style-type: none;
+        display: block;
+        height: 50vh;
+        align-items: center;
+        margin: 40vh -8vw 10vh 4vw;
+    }
+    
+    #footer-cadastro{
+        width: 100%;
+    }
+    
+    #footer-cadastro{
+        padding: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .li-cadastro{
+        font-size: 0.50em;
+        flex-wrap: wrap;
+    }
+
+    
+}
+    
